@@ -1,0 +1,33 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: mail
+#  profiles:
+#    active: register,rabbitmq,mail
+#  cloud:
+#    nacos:
+#      config:
+#        server-addr: 47.95.14.107:8848
+#        file-extension: yml
+#        prefix: fk
+  cloud:
+    nacos:
+      discovery:
+        server-addr:  47.95.14.107:8848
+  mail: smtp.qq.com
+  username: 2234076313@qq.com
+  password: fccjwxkkivmpeaji
+  rabbitmq:
+    host: 47.95.14.107
+    port: 5672
+    username: admin
+    password: 111
+  #  profiles:
+  #    active: register
+  #  cloud:
+  #    nacos:
+  #      config:
+  #        server-addr: 47.95.14.107:8848
+  #        prefix: fk
+  #        file-extension: yml

@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: admin
+  cloud:
+    nacos:
+      config:
+        file-extension: yml
+        server-addr: 47.95.14.107:8848
+        prefix: fk
+  profiles:
+    active: register,datasource,mail,rabbitmq
+
+
+server:
+  port: 8082
