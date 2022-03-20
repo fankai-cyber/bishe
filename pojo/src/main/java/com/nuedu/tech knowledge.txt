@@ -1,0 +1,10 @@
+// 一些技术点
+
+Redis（blpush, rpush)
+MyBatis
+MyBatis Generator
+OkHttp (HttpClient)
+JSON(FastJSON)
+
+SpringBoot 2.6.3
+CommandLineRunner

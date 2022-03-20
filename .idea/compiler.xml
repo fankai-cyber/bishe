@@ -8,10 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pojo" />
-        <module name="mail" />
         <module name="generator" />
-        <module name="child" />
         <module name="admin" />
+        <module name="mail" />
+        <module name="child" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

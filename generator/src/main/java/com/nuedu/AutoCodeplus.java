@@ -37,7 +37,7 @@ public class AutoCodeplus {
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("111");
-        mpg.setDataSource(dsc);
+        mpg.setDataSource(dsc);// 如果模板引擎是 freemarker
 
         // 包配置
         final PackageConfig pc = new PackageConfig();
