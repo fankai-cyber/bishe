@@ -6,4 +6,5 @@
 *.iml
 out
 gen
-bootstrap.yml
+/pojo/
+/admin/src/main/java/com/nuedu/util/
