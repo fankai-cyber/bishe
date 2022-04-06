@@ -6,7 +6,7 @@ public class Test {
     private java.lang.String name;
 
     public void method1(){
-        this.name = "fafa";
+        this.name = "fafa11111";
     }
 
     public static void main(String[] args) {
