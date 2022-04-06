@@ -30,6 +30,7 @@ public class RoleController extends BasePojo {
         QueryWrapper<Role> wrapper=new QueryWrapper<Role>();
         if(StringUtils.isNotBlank(role.getName())){
             wrapper.like("name",role.getName());
+            System.out.println("1111");
         }
         if (role.getActive()!=null){
             wrapper.eq("active",role.getActive());
