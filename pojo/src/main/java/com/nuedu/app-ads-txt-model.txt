@@ -29,11 +29,13 @@ AppDoc
 -- 广告主提供的授权记录    已经存在 自己维护的白名单
 OlaexAdvAds
     id
-    advName
+    advName     广告主名称
+
     advDomain
     accountId
     accountType: Enum
     advCaid
+
     recordSource: Enum
     createdAt
     updatedAt
@@ -43,10 +45,12 @@ OlaexAdvAds
 OlaexPubAds
     id
     //appBundle
-    developerDomain
+    developerDomain 发布者域名
+
     advDomain
     accountId
     accountType:Enum
+
     createdAt
     updatedAt
 

@@ -6,7 +6,7 @@ spring:
       config:
         file-extension: yml
         server-addr: 47.95.14.107:8848
-        prefix: fk
+        prefix: fkvdvdsvdsvdsv
   profiles:
     active: register,datasource,mail,rabbitmq
 
